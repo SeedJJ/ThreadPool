@@ -1,14 +1,16 @@
-﻿using NUnit.Framework;
-
-namespace ThreadPool.Test
+﻿namespace ThreadPool.Test
 {
-    [TestFixture]
-    public class ThreadPoolTest
+    public class Tests
     {
+        [SetUp]
+        public void Setup()
+        {
+        }
+
         [Test]
         public void Test1()
         {
-            Assert.True(true);
+            Assert.Pass();
         }
     }
 }

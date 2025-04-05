@@ -1,5 +1,5 @@
 ﻿namespace ThreadPool;
 
-public class ThreadPool
+public class ThreadPool : IThreadPool
 {
 }
