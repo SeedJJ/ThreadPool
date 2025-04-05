@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPool", "ThreadPool\ThreadPool.csproj", "{AD542CBC-617C-4E4C-AA1D-FBA768446008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPool.Runner", "ThreadPool.Runner\ThreadPool.Runner.csproj", "{0BC7F159-4D1F-4FEF-923B-94C1D48389CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPool.Test", "ThreadPool.Test\ThreadPool.Test.csproj", "{35457BE9-2007-4B78-9CEE-D564B7291AF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD542CBC-617C-4E4C-AA1D-FBA768446008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD542CBC-617C-4E4C-AA1D-FBA768446008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD542CBC-617C-4E4C-AA1D-FBA768446008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD542CBC-617C-4E4C-AA1D-FBA768446008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BC7F159-4D1F-4FEF-923B-94C1D48389CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BC7F159-4D1F-4FEF-923B-94C1D48389CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BC7F159-4D1F-4FEF-923B-94C1D48389CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BC7F159-4D1F-4FEF-923B-94C1D48389CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35457BE9-2007-4B78-9CEE-D564B7291AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35457BE9-2007-4B78-9CEE-D564B7291AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35457BE9-2007-4B78-9CEE-D564B7291AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35457BE9-2007-4B78-9CEE-D564B7291AF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
