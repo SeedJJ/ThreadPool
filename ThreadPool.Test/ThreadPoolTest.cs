@@ -13,9 +13,23 @@ namespace ThreadPool.Test
         }
 
         [Test]
-        public void Test1()
+        public void TestRunSingleTask()
         {
-            Assert.Pass();
+            bool isExecuted = false;
+
+            _threadPool.EnqueueTask(() => {
+                isExecuted = true;
+            });
+
+            Thread.Sleep(500);
+
+            Assert.That(isExecuted, Is.True, "Single Task has not been executed.");
+        }
+
+        [TearDown]
+        public void Teardown()
+        {
+            _threadPool.Shutdown();
         }
     }
 }
