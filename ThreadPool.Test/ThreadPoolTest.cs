@@ -3,7 +3,7 @@
 namespace ThreadPool.Test
 {
     [TestFixture]
-    public class Tests
+    public class ThreadPoolTest
     {
         [Test]
         public void Test1()
